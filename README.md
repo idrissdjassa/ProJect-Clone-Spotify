@@ -1,5 +1,7 @@
 🎧 ProJect Clone Spotify
+
 Un clone moderne et responsive de l'interface Spotify, conçu pour explorer
+
 les principes du développement web front-end et back-end.
 
 ✨ Fonctionnalités
@@ -24,5 +26,7 @@ API : Spotify Web API ou mock data
 
 🚀 Objectif du projet
 Ce projet vise à recréer l'expérience utilisateur de Spotify 
+
 tout en renforçant les compétences en développement web, 
+
 gestion de composants, et interaction avec des APIs.
