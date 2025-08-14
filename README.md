@@ -1,6 +1,6 @@
 # 🎧 ProJect Clone Spotify
 
-Bienvenue sur le projet 🎧 ProJect Clone Spotify Conçu pour explorer les principes du développement web front-end et back-end
+Bienvenue sur le Projet 🎧 ProJect Clone Spotify Conçu pour explorer les principes du développement web front-end et back-end
 ## 📜 Description du Projet
 
 Ce projet vise à recréer l'expérience utilisateur de Spotify tout en renforçant les compétences en développement web, gestion de composants, et interaction avec des APIs.
