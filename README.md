@@ -1,10 +1,10 @@
-🎧 ProJect Clone Spotify
+🎧 *ProJect Clone Spotify*
 
 Un clone moderne et responsive de l'interface Spotify, conçu pour explorer
 
 les principes du développement web front-end et back-end.
 
-✨ Fonctionnalités
+✨ *Fonctionnalités*
 Interface utilisateur inspirée de Spotify (HTML, CSS, JavaScript)
 
 Lecture simulée de morceaux
