@@ -58,7 +58,7 @@ Vercel ou Netlify pour le frontend
 Render, Railway, ou Heroku pour le backend
 
 
-## 📸 Aperçu du Jeu 
+## 📸 Aperçu du ProJect
 
 ### Sur ordinateur :
 
