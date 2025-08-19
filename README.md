@@ -19,7 +19,7 @@ Ce projet vise à recréer l'expérience utilisateur de Spotify tout en renforç
 - **📱 Design responsive** : Le score augmente à chaque fois que le serpent mange une pomme.
 - **🔌 Intégration possible avec une API musicale** : Prévu pour se connecter à des services comme Spotify Web API ou Deezer.
 - **🎨 Interface utilisateur inspirée de Spotify** : Design moderne et épuré, construit avec HTML, CSS et JavaScript.
-## 🕹️ Comment Jouer
+## 🕹️ Comment Ameliorer
 
 Utilisez les touches fléchées de votre clavier pour diriger le serpent vers les pommes. Le jeu s'accélère progressivement à mesure que le serpent mange plus de pommes.
 
