@@ -7,7 +7,7 @@ Ce projet vise à recréer l'expérience utilisateur de Spotify tout en renforç
 
 
 
-## 🛠 Technologies Utilisées
+## 🛠 Technologies a utiliser
 
 - **HTML5 / CSS3 / JavaScript** : Structure  de base 
 - **Frameworks** : React (optionnel), Bootstrap.
