@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    /* background-image: linear-gradient(rgba(24, 24, 24, 0.5), rgba(20, 20, 20)); */
+    background: linear-gradient(rgba(0, 0, 0, 1) 100%, rgb(0, 0, 0) 100%, rgb(0, 0, 0) 100%);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.error-message {
+    color: rgb(236, 83, 83);
+    font-size: 12px;
+    display: none; /* Hidden by default */
+    display: flex; /* Ensure that the SVG and text are aligned */
+    align-items: center; /* Center align items */
+}
+
+.input-box input.error {
+    border: 2px solid red; /* Red border for error state */
+}
+
+/* Reset border style when there is no error */
+.input-box input {
+    border: 1px solid #ccc; /* Default border style */
+}
+.content{
+    background:transparent;
+    height: 100vh;
+}
+.enter{
+    margin-top: 30px;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    font-weight: 600;
+}
+
+/* Default button style */
+.btn {
+    background-color: #2db903; /* Light gray color */
+    color: white;
+    border: none;
+    padding: 15px 35px;
+    font-size: 1.2rem;
+    margin:2% 0px 0px 30.5%;
+    cursor: pointer;
+    /* cursor: not-allowed; Show as disabled */
+    /* opacity: 1; Make it look disabled */
+    border-radius: 30px;
+}
+.btn:hover{
+    transform: scale(1.1);
+    transition:all ease 0.1s;
+}
+.number{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: 0px 0px 0px 42%;
+    padding-top: 20px;
+    gap: 20px;
+    width: 20vw;
+    position: relative;
+    color: white;
+}
+.phone-number{
+    margin-top: -19px;
+    width: 32vw;
+    color: white;
+    background: transparent;
+}
+.phone-number input{
+    color: #ffffff;
+    width: 30vw;
+    padding: 15px 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 500;
+    background: black;
+}
+.phone-number input:hover{
+    border: 1px solid white;
+}
+/* .value{
+    margin-top: 20px;
+    width: 20vw;
+    color: white;
+} */
+.option {
+    width: 10vw;
+    padding: 16px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 500;
+    background: transparent;
+}
+  .number select {
+    color: #ffffff;
+    /* width: 90%;
+    padding:15px  70px; */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: transparent; /* Hide the default arrow */
+    appearance: none; /* Remove default arrow in most browsers */
+    -webkit-appearance: none; /* Remove default arrow in WebKit browsers */
+  }
+  .number svg{
+    position: absolute;
+    margin-top: -57px;
+    margin-left: 110px;
+  }
+  /* .number::after { 
+    /* content: ''; */
+    /* position: absolute; */
+    /* left: 34%; */
+    /* top: 50%; */
+    /* right: 10px; */
+    /* transform: translateY(-50%); */
+    /* width: 24px; Adjust size as needed */
+    /* height: 24px; Adjust size as needed */
+    /* background: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cGF0aCBkPSJNMTkgOWwtNyA3LTctN2wtNyIgIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLW9wYWNpdHk9IjIuMCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPjwvc3ZnPg==') no-repeat center; */
+    /* background-size: 24px 24px; Adjust size as needed */
+    /* pointer-events: none; Make sure the SVG doesn't interfere with clicks */

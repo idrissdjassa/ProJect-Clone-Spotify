@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    background-image: linear-gradient(rgba(24, 24, 24, 0.5), rgba(20, 20, 20));
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    /* overflow: hidden; */
+}
+
+.login {
+    background: linear-gradient(360deg, rgba(163, 163, 163, 0.08) 90%, rgb(10, 10, 10, 1) 100%, rgb(10, 10, 10, 1) 100%);
+    height: 100vh;
+    width: 500px;
+    margin: 10px 30% 0 35%;
+    padding: 2.5% 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    border-radius: 8px;
+}
+
+a {
+    color: white;
+}
+
+.url a {
+    text-decoration: none;
+}
+
+.spotify-logo{
+    padding-top: 25px;
+    position: absolute;
+    background: transparent;
+    width: 60%;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.spotify-logo h1{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 3rem;
+    font-weight: 800;
+    letter-spacing: -1px;
+}
+.continue{
+    position: relative;
+    padding: 10% 0 0 5px;
+}
+.url {
+    background-color: rgb(15, 15, 15);
+    height: 6vh;
+    width: 85%;
+    margin: 10px 40px;
+    border-radius: 30px;
+    display: flex;
+    border:1px solid rgb(157, 157, 157);
+}
+.url :nth-child(1){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin:0px 15px;
+    font-weight: 600;
+    padding-right: 20px;
+}
+.url:hover{
+    border:1px solid white;
+}
+
+.sepration{
+    height: 10px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:3rem -0px 0px -65px;
+}
+.sepration1{
+    position: absolute;
+    height: 1px;
+    width: 150px;
+    background-color: rgb(132, 132, 132);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:0px 0px 0px -30px;
+}
+.or{
+    margin:-10px 0px 0px 160px;
+}
+.sepration2{
+    height: 1px;
+    width: 150px;
+    background-color: rgb(132, 132, 132);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:-8px 0px 0px 345px;
+}
+
+.info{
+    background:transparent;
+    display: flex;
+    flex-direction: column;
+}
+.input-box{
+    display: flex;
+    flex-direction: column;
+    margin: 180px 0px 0px 50px;
+    width: 100%;
+    font-size: 0.9rem;
+    font-weight:600;
+    gap: 10px;
+}
+.input-box input{
+    background:transparent;
+    border:1px solid rgb(132, 132, 132);
+    padding-left:10px;
+    border-radius: 4px;
+    height: 6vh;
+    color: white;
+    font-size: 1rem;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.input-box input:hover{
+    border: 1px solid white;
+}
+.input-box input::placeholder {
+    font-size: 1rem;
+}
+/* .email{
+    padding-bottom: 20px;
+ }  */
+.pwd-icon {
+    margin-top: -14%;
+    transform: translate(92%);
+}
+.btn {
+    margin:0px 0px 0px 5px;
+    background-color: #1ed760;
+    padding:15px 0px;
+    width: 79%;
+    height:7vh;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 30px;
+}
+
+.btn:hover {
+    border: none;
+    cursor: pointer;
+    transform:scale(1.05);
+    transition: all ease 0.1s;
+    background-color: #3ae576;
+}
+
+.account{
+    margin-top:20px;
+}
+.forget a {
+    color: #1ed760;
+    margin: 150px 0px 0px -74px;
+}
+.forget{
+    height: 5vh;
+    margin-top: 15px;
+    /* margin-left: 90px; */
+}
+
+.newaccount{
+    width:100%;
+    margin-left: 10px;
+    color: gray;
+    font-size:1rem;
+}
+.sepration3{
+    height: 1px;
+    width: 100%;
+    background-color: rgb(132, 132, 132);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:30px 0px 0px 10px;
+}
+.account{
+    font-size: 0.95rem;
+    margin-left: 75px;
+    color:rgb(190, 190, 190);
+}
+.account a:hover{
+    color: #1ed760;
+}
+footer{
+    background-color: transparent;
+    height: 15vh;
+    width: 60%;
+    display: block;
+    align-content: center;
+    align-items: center;
+    /* margin-left: 20px; */
+    text-align: center;
+    font-size: 0.75rem;
+    color:rgb(190, 190, 190);
+}
+footer a{
+    color:rgb(190, 190, 190);
+}
